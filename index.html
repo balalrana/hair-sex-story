@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HAIR SEX STORY</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Montserrat:wght@600;700;800&family=Outfit:wght@600;700;800;900&display=swap');
+:root{--navy:#101a35;--navy2:#18264a;--paper:#f7f8fc;--ink:#202945;--muted:#7d879f;--teal:#16b8b2;--purple:#a44a9a;--coral:#ef625c;--gold:#eda52d;--slate:#50636b}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#0b1530,#1b2a50);font-family:'Hind Siliguri',sans-serif;color:var(--ink);min-height:100vh}
+header{padding:28px 18px 24px;text-align:center;color:#fff;background:radial-gradient(circle at 50% -40%,#3e5a91,transparent 65%)}
+.brand{font:900 clamp(20px,6.5vw,52px) 'Outfit','Montserrat',sans-serif;letter-spacing:clamp(.4px,.45vw,3px);margin:0 auto;line-height:1.12;white-space:nowrap;width:100%;color:#D4AF37;-webkit-text-fill-color:#D4AF37;text-shadow:0 3px 12px #0005;filter:drop-shadow(0 2px 5px #0003)}.tag{margin:8px 0 0;color:#b9dce6;font-size:15px}
+nav{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;padding:0 12px 20px}nav button{border:1px solid #ffffff35;background:#ffffff12;color:white;padding:9px 16px;border-radius:30px;font:500 15px 'Hind Siliguri';cursor:pointer}nav button.active,nav button:hover{background:#fff;color:#152345}
+main{max-width:1100px;margin:0 auto 40px;padding:0 16px}.panel{background:var(--paper);border-radius:24px;padding:clamp(18px,4vw,34px);box-shadow:0 18px 55px #0003;min-height:480px}
+.hero{text-align:center;margin-bottom:28px}.hero h2{font-size:25px;margin:0 0 5px}.hero p{color:var(--muted);margin:0}
+.hub{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 28px;align-items:center;max-width:820px;margin:34px auto 12px}.hub-card{text-align:center;cursor:pointer;min-width:0}.circle{width:min(100%,190px);aspect-ratio:1;margin:auto auto 10px;border-radius:50%;background:linear-gradient(145deg,#fff,#e9edf5);box-shadow:10px 12px 24px #26334b22,-8px -8px 18px #fff;display:grid;place-items:center;position:relative;border:10px solid var(--tone);outline:2px solid color-mix(in srgb,var(--tone),white 45%);outline-offset:6px;transition:.2s}.circle:after{content:'';position:absolute;inset:12px;border:1px solid #fff;border-radius:50%}.circle span{font:700 23px 'Hind Siliguri',sans-serif;color:var(--tone);z-index:1;padding:12px;text-align:center;line-height:1.35}.hub-card:hover .circle{transform:translateY(-5px);box-shadow:12px 18px 28px #26334b30}.hub-card strong{display:block;font-size:20px}.hub-card small{color:var(--muted);font-size:14px}
+.section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid #e5e9f1;padding-bottom:14px;margin-bottom:18px}.section-head h2{margin:0;font-size:25px}.back{border:0;background:#e8edf7;color:#24375e;border-radius:22px;padding:8px 15px;font:500 14px 'Hind Siliguri';cursor:pointer}
+.list{display:grid;gap:10px}.gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}.gallery-item{margin:0;background:#fff;padding:7px;border:1px solid #e8ebf2;border-radius:14px;box-shadow:0 6px 18px #26334b12}.gallery-item img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:9px}.gallery-empty{grid-column:1/-1}.story-row,.author-row{display:flex;align-items:center;gap:12px;padding:13px 15px;background:#fff;border:1px solid #e8ebf2;border-radius:13px;cursor:pointer;text-align:left;width:100%;font:500 16px 'Hind Siliguri';color:var(--ink)}.story-row:hover,.author-row:hover{border-color:#9aaed2;background:#f8faff}.num{flex:0 0 32px;height:32px;border-radius:50%;background:#eaf0fb;color:#36517f;display:grid;place-items:center;font-size:14px}.row-arrow{margin-left:auto;color:#9aa4b8}.story-body{white-space:pre-wrap;line-height:1.95;font-size:18px;background:#fff;border-radius:15px;padding:22px;border:1px solid #e8ebf2}.story-body h3{margin:0 0 5px;font-size:25px}.byline{color:var(--muted);margin:0 0 20px}
+form{display:grid;gap:15px;max-width:760px}label{font-weight:600;display:block;margin-bottom:5px}input,textarea{width:100%;padding:12px 14px;border:1px solid #dce2ed;border-radius:11px;font:16px 'Hind Siliguri';background:white;color:var(--ink)}textarea{min-height:220px;resize:vertical}.submit{border:0;border-radius:12px;padding:12px 22px;background:linear-gradient(120deg,#16aaa9,#3972bc);color:white;font:600 17px 'Hind Siliguri';cursor:pointer;width:max-content}.note{font-size:14px;color:var(--muted);margin:0}.success{background:#e5f7ef;color:#176a4b;padding:12px 14px;border-radius:10px;display:none}.empty{color:var(--muted);padding:22px;text-align:center;background:white;border-radius:12px}.admin-tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:15px}.admin-tools button{border:0;border-radius:9px;padding:8px 13px;background:#e8edf7;color:#26385e;font:500 14px 'Hind Siliguri';cursor:pointer}.approve{background:#e2f5ea!important;color:#176b43!important}.reject{background:#ffebeb!important;color:#a33333!important}
+footer{text-align:center;color:#aebbd4;padding:0 15px 28px;font-size:13px}
+.menu-toggle{position:fixed;top:18px;right:18px;z-index:20;width:48px;height:48px;border:1px solid #ffffff45;border-radius:14px;background:#ffffff18;color:#fff;font-size:27px;line-height:1;cursor:pointer;backdrop-filter:blur(10px);box-shadow:0 8px 24px #0003}
+.menu-shade{position:fixed;inset:0;background:#050b1dcc;z-index:29;opacity:0;visibility:hidden;transition:.25s}
+.side-menu{position:fixed;z-index:30;top:0;right:0;width:min(310px,85vw);height:100dvh;background:linear-gradient(160deg,#18294f,#0d1833);color:#fff;padding:26px 18px;box-shadow:-18px 0 45px #0005;transform:translateX(105%);transition:transform .28s ease;overflow-y:auto}
+.side-menu.open{transform:translateX(0)}.menu-shade.open{opacity:1;visibility:visible}
+.menu-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid #ffffff25}
+.menu-top strong{font:800 18px 'Outfit','Montserrat',sans-serif;letter-spacing:1.2px;color:#D4AF37}.menu-close{width:36px;height:36px;border:0;border-radius:10px;background:#ffffff18;color:#fff;font-size:24px;cursor:pointer}
+.side-links{display:grid;gap:10px}.side-links button{width:100%;display:flex;align-items:center;gap:12px;text-align:left;border:1px solid #ffffff20;border-radius:13px;padding:13px 14px;background:#ffffff0d;color:#fff;font:500 16px 'Hind Siliguri';cursor:pointer;transition:.2s}.side-links button:hover,.side-links button:focus{background:#ffffff25;border-color:#ffffff55}.side-links .menu-icon{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;background:#ffffff18;font-size:17px}
+@media(max-width:650px){.menu-toggle{top:12px;right:12px;width:44px;height:44px}header{padding-right:58px;padding-left:58px}}.adult{position:fixed;inset:0;background:#0b1530ed;z-index:5;display:grid;place-items:center;padding:20px}.adult-card{background:white;border-radius:20px;padding:28px;max-width:420px;text-align:center}.adult-card h2{margin:0 0 8px}.adult-card p{color:#68738b}.adult-card button{background:#17284e;color:white;border:0;padding:10px 22px;border-radius:25px;font:600 16px 'Hind Siliguri';cursor:pointer}
+@media(max-width:650px){.hub{gap:28px 14px;margin-top:28px}.circle{width:min(100%,138px);border-width:8px}.circle span{font-size:20px}.hub-card strong{font-size:18px}.hub-card small{font-size:12px}.panel{border-radius:18px}}
+</style></head>
+<body>
+<button class="menu-toggle" id="menuToggle" aria-label="মেনু খুলুন" aria-expanded="false" aria-controls="sideMenu">☰</button>
+<div class="menu-shade" id="menuShade"></div>
+<aside class="side-menu" id="sideMenu" aria-hidden="true"><div class="menu-top"><strong>HAIR SEX STORY</strong><button class="menu-close" id="menuClose" aria-label="মেনু বন্ধ করুন">×</button></div><nav class="side-links" id="sideLinks" aria-label="সব বিভাগ"></nav></aside>
+<header><h1 class="brand">HAIR SEX STORY</h1><p class="tag">গল্পের পাতায় স্বাগতম</p></header>
+
+<main><section class="panel" id="app"></section></main>
+<footer>© HAIR SEX STORY</footer>
+<div class="adult" id="adult"><div class="adult-card"><h2>প্রাপ্তবয়স্ক পাঠকদের জন্য</h2><p>এই ওয়েবসাইটটি কেবল ১৮ বছর বা তার বেশি বয়সীদের জন্য। প্রবেশ করে আপনি নিশ্চিত করছেন যে আপনার বয়স ১৮ বছর বা তার বেশি।</p><button id="enter">আমি ১৮+ · প্রবেশ করুন</button></div></div>
+<script>
+// গল্পের বিভাগ এবং গল্প জমা দেওয়ার ফরম। বাস্তব অনলাইন অ্যাডমিনে পাঠাতে সার্ভার/ফর্ম endpoint সংযোগ প্রয়োজন।
+const categories=[
+{id:'ma',name:'মা',desc:'মাকে নিয়ে গল্প পড়ুন',color:'var(--teal)'},
+{id:'chachi',name:'চাচী',desc:'চাচীকে নিয়ে গল্প পড়ুন',color:'var(--purple)'},
+{id:'shashuri',name:'শাশুড়ী',desc:'শাশুড়ীকে নিয়ে গল্প পড়ুন',color:'var(--coral)'},
+{id:'all',name:'সকল গল্পের আসর',desc:'সকল গল্প পড়ুন',color:'var(--gold)'},
+{id:'gallery',name:'ছবি গ্যালারী',desc:'ছবির সংগ্রহ দেখুন',color:'#3972bc'},
+{id:'submit',name:'আপনার গল্প পাঠান',desc:'আপনার লেখা গল্প জমা দিন',color:'var(--slate)'}
+];
+const demo=[
+{id:1,title:'নদীর পাড়ের বিকেল',author:'রহিম উদ্দিন',cat:'ma',body:'এখানে গল্পের সম্পূর্ণ লেখা দেখানো হবে। এটি নমুনা গল্প; আপনার নিজস্ব গল্প যোগ হলে অনুমোদনের পর প্রকাশিত হবে।'},
+{id:2,title:'স্মৃতির উঠোন',author:'সালমা আক্তার',cat:'chachi',body:'এখানে গল্পের সম্পূর্ণ লেখা দেখানো হবে। এটি নমুনা গল্প; আপনার নিজস্ব গল্প যোগ হলে অনুমোদনের পর প্রকাশিত হবে।'},
+{id:3,title:'একটি পুরোনো চিঠি',author:'রহিম উদ্দিন',cat:'shashuri',body:'এখানে গল্পের সম্পূর্ণ লেখা দেখানো হবে। এটি নমুনা গল্প; আপনার নিজস্ব গল্প যোগ হলে অনুমোদনের পর প্রকাশিত হবে।'}
+];
+let stories=JSON.parse(localStorage.getItem('hss_stories')||'null')||demo;let page='home';const app=document.getElementById('app');
+const menuItems=document.getElementById('sideLinks');
+menuItems.innerHTML=categories.map(c=>`<button type="button" onclick="navigateCategory('${c.id}')"><span class="menu-icon">${({ma:'♡',chachi:'✿',shashuri:'❀',all:'▤',gallery:'▧',submit:'✎'})[c.id]}</span><span>${c.name}</span></button>`).join('');
+function toggleMenu(open){const side=document.getElementById('sideMenu'),shade=document.getElementById('menuShade'),toggle=document.getElementById('menuToggle');side.classList.toggle('open',open);shade.classList.toggle('open',open);side.setAttribute('aria-hidden',String(!open));toggle.setAttribute('aria-expanded',String(open));}
+function navigateCategory(id){toggleMenu(false);if(id==='all')showAuthors();else if(id==='gallery')showGallery();else if(id==='submit')showSubmitForm();else showCategory(id);}
+document.getElementById('menuToggle').addEventListener('click',()=>toggleMenu(!document.getElementById('sideMenu').classList.contains('open')));
+document.getElementById('menuClose').addEventListener('click',()=>toggleMenu(false));
+document.getElementById('menuShade').addEventListener('click',()=>toggleMenu(false));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')toggleMenu(false)});
+// বাস্তব প্রকাশের আগে এখানে অ্যাডমিনের ইমেইল/সার্ভার endpoint যুক্ত করতে হবে।
+const ADMIN_EMAIL='';
+function head(title){return `<div class="section-head"><h2>${title}</h2><button class="back" onclick="home()">← বিভাগে ফিরুন</button></div>`}
+function home(){page='home';app.innerHTML=`<div class="hero"><h2>গল্পের বিভাগসমূহ</h2><p>আপনার পছন্দের বিভাগ নির্বাচন করে গল্প পড়ুন</p></div><div class="hub">${categories.map(c=>`<div class="hub-card" onclick="${c.id==='all'?'showAuthors()':c.id==='gallery'?'showGallery()':c.id==='submit'?'showSubmitForm()':`showCategory('${c.id}')`}"><div class="circle" style="--tone:${c.color}"><span>${c.name}</span></div><small>${c.desc}</small></div>`).join('')}</div>`}
+function showGallery(){page='gallery';const photos=[];app.innerHTML=head('ছবি গ্যালারী')+`<div class="gallery-grid">${photos.length?photos.map((src,i)=>`<figure class="gallery-item"><img src="${src}" alt="গ্যালারির ছবি ${i+1}" loading="lazy"></figure>`).join(''):'<div class="empty gallery-empty">ছবি গ্যালারীতে এখনো কোনো ছবি যোগ করা হয়নি।</div>'}</div>`}
+function showCategory(id){page='category';let c=categories.find(x=>x.id===id);let arr=stories.filter(s=>s.cat===id);app.innerHTML=head(c.name)+`<div class="list">${arr.length?arr.map((s,i)=>`<button class="story-row" onclick="showStory(${s.id})"><span class="num">${i+1}</span><span>${esc(s.title)}</span><span class="row-arrow">›</span></button>`).join(''):'<div class="empty">এখনো কোনো গল্প প্রকাশিত হয়নি।</div>'}</div>`}
+function showStory(id){let s=stories.find(x=>x.id===id);if(!s)return;page='story';app.innerHTML=head('গল্প পড়ুন')+`<article class="story-body"><h3>${esc(s.title)}</h3><p class="byline">লেখক: ${esc(s.author)}</p>${esc(s.body)}</article>`}
+function showAuthors(){page='authors';let authors=[...new Set(stories.map(s=>s.author))].sort((a,b)=>a.localeCompare(b,'bn'));app.innerHTML=head('সকল গল্পের আসর')+`<div class="list">${authors.length?authors.map((a,i)=>`<button class="author-row" onclick="showAuthor('${encodeURIComponent(a)}')"><span class="num">${i+1}</span>${esc(a)}<span class="row-arrow">›</span></button>`).join(''):'<div class="empty">এখনো কোনো লেখকের গল্প নেই।</div>'}</div>`}
+function showAuthor(encoded){let a=decodeURIComponent(encoded),arr=stories.filter(s=>s.author===a);app.innerHTML=head(a+' — সকল গল্প')+`<div class="list">${arr.map((s,i)=>`<button class="story-row" onclick="showStory(${s.id})"><span class="num">${i+1}</span>${esc(s.title)}<span class="row-arrow">›</span></button>`).join('')}</div>`}
+function showSubmitForm(){page='submit';app.innerHTML=head('আপনার গল্প পাঠান')+`<form id="storyForm"><div><label for="storyTitle">গল্প নাম:</label><input id="storyTitle" name="storyTitle" required maxlength="180" placeholder="গল্পের নাম লিখুন"></div><div><label for="authorName">লেখকের নাম:</label><input id="authorName" name="authorName" required maxlength="120" placeholder="আপনার নাম লিখুন"></div><div><label for="storyText">এখানে গল্প লিখুন:</label><textarea id="storyText" name="storyText" required placeholder="আপনার সম্পূর্ণ গল্প লিখুন..."></textarea></div><button class="submit" type="submit">পাঠান</button><p class="note">গল্প পাঠানোর পর এডমিনের পর্যালোচনা ও অনুমোদন সাপেক্ষে প্রকাশ করা হবে।</p><div id="formMessage" class="success" role="status"></div></form>`;
+ document.getElementById('storyForm').addEventListener('submit',sendStoryRequest);
+}
+function sendStoryRequest(e){e.preventDefault();const title=document.getElementById('storyTitle').value.trim(),author=document.getElementById('authorName').value.trim(),body=document.getElementById('storyText').value.trim();if(!title||!author||!body)return;const msg=document.getElementById('formMessage');
+ if(!ADMIN_EMAIL){msg.style.display='block';msg.style.background='#fff4df';msg.style.color='#80530b';msg.textContent='ফরমটি প্রস্তুত। সরাসরি এডমিনের কাছে পাঠানো চালু করতে এডমিনের ইমেইল ঠিকানা এবং নিরাপদ সার্ভার/ফর্ম সংযোগ প্রয়োজন।';return;}
+ const subject=encodeURIComponent('নতুন গল্প জমা: '+title);const content=encodeURIComponent('গল্পের নাম: '+title+'\nলেখকের নাম: '+author+'\n\nগল্প:\n'+body+'\n\nঅনুমোদনের জন্য পাঠানো হয়েছে।');window.location.href=`mailto:${ADMIN_EMAIL}?subject=${subject}&body=${content}`;msg.style.display='block';msg.textContent='আপনার ইমেইল অ্যাপে গল্প পাঠানোর খসড়া তৈরি হয়েছে। পাঠানো সম্পন্ন করতে ইমেইলটি Send করুন।';
+}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+document.getElementById('enter').onclick=()=>document.getElementById('adult').style.display='none';home();
+</script></body></html>
